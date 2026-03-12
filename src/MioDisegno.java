@@ -1,8 +1,3 @@
-
-
-
-import java.awt.Color;
-
 import turtle.Turtle;
 import turtle.TurtleScreen;
 public class MioDisegno extends TurtleScreen {
@@ -14,7 +9,8 @@ public class MioDisegno extends TurtleScreen {
     public void setup() {
         noLoop();
         t = createTurtle();
-        // Disegna usando la tua tartaruga "t"
+        t.speed(1);
+        t.setPenSize(3);
     }
     // Il main sarà sempre uguale
     public static void main(String[] args) {

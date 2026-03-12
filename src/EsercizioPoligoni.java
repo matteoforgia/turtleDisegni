@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import turtle.TurtleScreen;
 
 public class EsercizioPoligoni extends TurtleScreen{
@@ -15,8 +14,9 @@ public class EsercizioPoligoni extends TurtleScreen{
         int K = in.nextInt();
         if (K>=100) {
             System.out.println("mi sembra un po' troppo");
-            return;            
+            return;
         }
         EsercizioPoligoni a = new EsercizioPoligoni();
+        a.run();
     }
 }

@@ -1,10 +1,10 @@
-import turtle.*;    
 import java.awt.Color;
+import turtle.*;
 
 /**
  * Disegna una spirale con i colori che cambiano gradualmente
  */
-public class SpiraleDemo extends TurtleScreen {  
+public class SpiraleDemo extends TurtleScreen {
     private Turtle t;  // La nostra tartaruga
 
     public SpiraleDemo() {
