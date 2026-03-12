@@ -12,6 +12,7 @@ public class MioDisegno extends TurtleScreen {
         t.speed(1);
         t.setPenSize(3);
     }
+        
     // Il main sarà sempre uguale
     public static void main(String[] args) {
         MioDisegno disegno = new MioDisegno();

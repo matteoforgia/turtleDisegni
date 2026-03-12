@@ -15,7 +15,7 @@ public class SpiraleDemo extends TurtleScreen {
     public void setup() {      // Metodo chiamato una volta all'avvio
         noLoop();              // Disabilita l'animazione continua
         title("Spirale Colorata");  // Imposta il titolo della finestra
-        bgcolor(Color.GRAY);   // Imposta il colore di sfondo a grigio
+        bgcolor(Color.BLACK);   // Imposta il colore di sfondo a nero
 
         t = createTurtle();    // Crea una nuova tartaruga
         t.speed(1);            // Velocità molto alta (1=veloce, 255=lento)
