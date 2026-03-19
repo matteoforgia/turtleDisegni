@@ -1,5 +1,5 @@
+package turtle;
 import java.awt.Color;
-import turtle.*;
 
 /**
  * Disegna una spirale con i colori che cambiano gradualmente
