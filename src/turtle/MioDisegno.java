@@ -1,4 +1,4 @@
-import turtle.Turtle;
+import turtle.*;
 import turtle.TurtleScreen;
 public class MioDisegno extends TurtleScreen {
     private Turtle t;
