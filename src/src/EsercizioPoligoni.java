@@ -1,8 +1,9 @@
-package turtle;
+package src;
 
-import turtle.Turtle;
-import turtle.TurtleScreen;
 import java.util.Scanner;
+
+import src.Turtle;
+import src.TurtleScreen;
 
 public class EsercizioPoligoni extends TurtleScreen{
     public EsercizioPoligoni() {

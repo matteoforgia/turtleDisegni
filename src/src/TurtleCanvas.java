@@ -1,6 +1,8 @@
-package turtle;
+package src;
 
 import javax.swing.*;
+
+import turtle.Turtle;
 
 import java.awt.*;
 import java.awt.geom.*;

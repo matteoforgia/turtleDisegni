@@ -1,9 +1,12 @@
-package turtle;
+package src;
 
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.HashMap;
 import java.util.Map;
+
+import turtle.TurtleCanvas;
+import turtle.TurtleScreen;
 
 /**
  * Classe che rappresenta una tartaruga grafica.
