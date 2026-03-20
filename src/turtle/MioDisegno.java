@@ -1,4 +1,4 @@
-package src;
+package turtle;
 
 import turtle.Turtle;
 import turtle.TurtleScreen;

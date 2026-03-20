@@ -1,4 +1,4 @@
-package src;
+package turtle;
 
 import java.awt.*;
 import java.awt.geom.*;
