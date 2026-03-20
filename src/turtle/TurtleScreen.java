@@ -5,10 +5,6 @@ import java.awt.event.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 import javax.swing.*;
 
-import turtle.Turtle;
-import turtle.TurtleCanvas;
-import turtle.TurtleScreen;
-
 /**
  * Classe principale per la gestione dello schermo della tartaruga.
  * Fornisce una finestra grafica dove le tartarughe possono disegnare.

@@ -2,9 +2,6 @@ package turtle;
 
 import java.util.Scanner;
 
-import turtle.Turtle;
-import turtle.TurtleScreen;
-
 public class EsercizioPoligoni extends TurtleScreen{
     public EsercizioPoligoni() {
         super(800, 600); // Dimensioni finestra
@@ -14,9 +11,9 @@ public class EsercizioPoligoni extends TurtleScreen{
         noLoop();
     }
     public static void disegnaPoligoni(int N, int K) {
-        Turtle t = createTurtle();
+        Turtle t = new Turtle(getInstance());
         t.speed(1);
-        t.setPenSize(2);
+        t.setPenSize(1);
         for (int i = 0; i < K; i++) {
             for (int j = 0; j < N; j++) {
                 t.forward(100); // Avanza di 100 pixel
@@ -43,6 +40,5 @@ public class EsercizioPoligoni extends TurtleScreen{
         EsercizioPoligoni a = new EsercizioPoligoni();
         a.run();
         disegnaPoligoni(N, K);
-
     }
 }

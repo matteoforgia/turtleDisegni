@@ -5,9 +5,6 @@ import java.awt.geom.*;
 import java.util.HashMap;
 import java.util.Map;
 
-import turtle.TurtleCanvas;
-import turtle.TurtleScreen;
-
 /**
  * Classe che rappresenta una tartaruga grafica.
  * La tartaruga può muoversi su un canvas, disegnare linee e forme,
