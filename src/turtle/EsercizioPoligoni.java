@@ -1,7 +1,5 @@
 package turtle;
 
-import turtle.Turtle;
-import turtle.TurtleScreen;
 import java.util.Scanner;
 
 public class EsercizioPoligoni extends TurtleScreen{
@@ -12,16 +10,16 @@ public class EsercizioPoligoni extends TurtleScreen{
     public void setup() {
         noLoop();
     }
-    public static void disegnaPoligoni(int N, int K) {
-        Turtle t = createTurtle();
+    public static void disegnaPoligoni(int n, int k) {
+        Turtle t = new Turtle(getInstance());
         t.speed(1);
-        t.setPenSize(2);
-        for (int i = 0; i < K; i++) {
-            for (int j = 0; j < N; j++) {
+        t.setPenSize(1);
+        for (int i = 0; i < k; i++) {
+            for (int j = 0; j < n; j++) {
                 t.forward(100); // Avanza di 100 pixel
-                t.left(360.0 / N); // Ruota a sinistra di un angolo basato sul numero di lati
+                t.left(360.0 / n); // Ruota a sinistra di un angolo basato sul numero di lati
             }
-            t.left(360.0 / K); // Ruota a sinistra per posizionare il prossimo poligono
+            t.left(360.0 / k); // Ruota a sinistra per posizionare il prossimo poligono
         }
         t.hideTurtle(); // Nasconde la tartaruga alla fine
     }
@@ -42,6 +40,5 @@ public class EsercizioPoligoni extends TurtleScreen{
         EsercizioPoligoni a = new EsercizioPoligoni();
         a.run();
         disegnaPoligoni(N, K);
-
     }
 }

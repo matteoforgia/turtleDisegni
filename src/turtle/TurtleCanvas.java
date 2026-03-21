@@ -2,6 +2,8 @@ package turtle;
 
 import javax.swing.*;
 
+import turtle.Turtle;
+
 import java.awt.*;
 import java.awt.geom.*;
 import java.awt.image.BufferedImage;
