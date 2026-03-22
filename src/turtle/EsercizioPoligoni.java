@@ -39,20 +39,20 @@ public class EsercizioPoligoni extends TurtleScreen {
         Scanner in = new Scanner(System.in);
 
         System.out.println("dammi un numero di lati compreso tra 3 e 12");
-        int N = in.nextInt();
-        if (N < 3 || N > 12) {
+        int n = in.nextInt();
+        if (n < 3 || n > 12) {
             System.out.println("Numero non valido. Riprova.");
             return;
         }
 
         System.out.println("dimmi quanti poligoni stampare, possibilmente minore di 100");
-        int K = in.nextInt();
-        if (K >= 100) {
+        int k = in.nextInt();
+        if (k >= 100) {
             System.out.println("mi sembra un po' troppo");
             return;
         }
 
-        EsercizioPoligoni disegno = new EsercizioPoligoni(N, K);
+        EsercizioPoligoni disegno = new EsercizioPoligoni(n, k);
         disegno.run();
     }
 }
