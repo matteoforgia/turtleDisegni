@@ -6,10 +6,10 @@ public class EsercizioPoligoni extends TurtleScreen {
 
     int N, K; // variabili globali
 
-    public EsercizioPoligoni(int N, int K) {
+    public EsercizioPoligoni(int n, int k) {
         super(800, 600);
-        this.N = N;
-        this.K = K;
+        this.N = n;
+        this.K = k;
     }
 
     @Override
@@ -19,7 +19,6 @@ public class EsercizioPoligoni extends TurtleScreen {
     }
 
     public void disegnaPoligoni(int n, int k) {
-        // TurtleScreen screen = getInstance();
         Turtle t = new Turtle(this);
 
         t.speed(1);
