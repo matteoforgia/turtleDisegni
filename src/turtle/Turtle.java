@@ -40,8 +40,8 @@ public class Turtle {
 
     private TurtleScreen screen;
     private TurtleCanvas canvas;
-    private double x = 0;
-    private double y = 0;
+    protected  double x = 0;
+    protected double y = 0;
     private double heading = 0;
     private boolean penDown = true;
     private Color penColor = Color.BLACK;
