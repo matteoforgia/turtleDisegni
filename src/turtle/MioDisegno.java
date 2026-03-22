@@ -17,6 +17,7 @@ public class MioDisegno extends TurtleScreen {
         t = createTurtle();
         t.speed(1);
         t.setPenSize(3);
+        t.down();
         posX = 0;
         posY = 0;
     }
