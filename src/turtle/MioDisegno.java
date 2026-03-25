@@ -27,10 +27,26 @@ public class MioDisegno extends TurtleScreen {
         if (key == null) return;
 
         switch (key) {
-            case "w": dy = 1; break;
-            case "s": dy = -1; break;
-            case "a": dx = -1; break;
-            case "d": dx = 1; break;
+            case "w":
+                dx = 0;
+                dy = 1;
+                break;
+
+            case "s":
+                dx = 0;
+                dy = -1;
+                break;
+
+            case "a":
+                dx = -1;
+                dy = 0;
+                break;
+
+            case "d":
+                dx = 1;
+                dy = 0;
+                break;
+
             case "r":
                 posX = 0;
                 posY = 0;
